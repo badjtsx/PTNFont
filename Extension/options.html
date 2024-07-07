@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Options</title>
+</head>
+<body>
+  <h1>Extension Options</h1>
+  <label for="fontUrl">Font URL:</label>
+  <input type="text" id="fontUrl" name="fontUrl" placeholder="Enter font URL">
+  <br>
+  <div id="siteUrls">
+    <label for="siteUrl">Site URLs:</label>
+    <div id="siteUrlInputs">
+      <div class="siteUrlInputContainer">
+        <input type="text" class="siteUrlInput" name="siteUrl" placeholder="Enter site URL">
+        <button class="removeSiteUrl">-</button>
+      </div>
+    </div>
+    <button id="addSiteUrl">+</button>
+  </div>
+  <br>
+  <button id="saveButton">Save</button>
+  <script src="options.js"></script>
+</body>
+</html>
